@@ -1,0 +1,35 @@
+body {
+    background-image: url(Img/Bokeh.jpg);
+    background-size: cover;
+    color: burlywood;
+    margin: 0 30px;
+ }
+ h1 {
+    opacity: 30%;
+    font-style: italic;
+   }
+ .characters {
+    position: relative;
+ }
+  .characters::after {
+    border: medium solid transparent;
+    content: "";
+    top: 100%;
+    left: 5%;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-color: burlywood rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    border-width: 25px;
+    margin-left: -25px;
+ }
+footer {
+   text-align: start;
+   font-style: italic;
+   font-family: Thong;
+   font-size: x-large;
+}
+@font-face {
+    font-family: Thong;
+    src: url(Thong/Thong.ttf);
+}
